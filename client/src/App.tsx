@@ -111,7 +111,6 @@ export default function App() {
 
       <main className="translator-wrapper">
         <div className="translator-container">
-          {/* ── Source Panel ── */}
           <div className="panel panel-source">
             <div className="panel-header">
               <LanguageSelector
@@ -155,7 +154,6 @@ export default function App() {
             </div>
           </div>
 
-          {/* ── Swap Button ── */}
           <div className="swap-button-wrapper">
             <SwapButton
               onClick={handleSwap}
@@ -163,7 +161,6 @@ export default function App() {
             />
           </div>
 
-          {/* ── Target Panel ── */}
           <div className="panel panel-target">
             <div className="panel-header">
               <LanguageSelector

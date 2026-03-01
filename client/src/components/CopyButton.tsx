@@ -14,7 +14,6 @@ export default function CopyButton({ text }: CopyButtonProps) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
-      /* clipboard may not be available */
     }
   }
 
